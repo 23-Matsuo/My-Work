@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <dds>DDS\</dds>
+    <cmo>CMO\</cmo>
+    <cso>Resources\Shaders\</cso>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup>
+    <ImageContentTask>
+      <Compress>BC3_UNORM</Compress>
+    </ImageContentTask>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup>
+    <ImageContentTask>
+      <GeneratePremultipliedAlpha>true</GeneratePremultipliedAlpha>
+    </ImageContentTask>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup>
+    <ImageContentTask>
+      <GenerateMips>false</GenerateMips>
+    </ImageContentTask>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup>
+    <ImageContentTask>
+      <ContentOutput>$(dds)%(Filename).dds</ContentOutput>
+    </ImageContentTask>
+    <FxCompile>
+      <ObjectFileOutput>$(cso)%(Filename).cso</ObjectFileOutput>
+    </FxCompile>
+    <MeshContentTask>
+      <ContentOutput>$(cmo)%(Filename).cmo</ContentOutput>
+    </MeshContentTask>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <BuildMacro Include="dds">
+      <Value>$(dds)</Value>
+    </BuildMacro>
+    <BuildMacro Include="cmo">
+      <Value>$(cmo)</Value>
+    </BuildMacro>
+    <BuildMacro Include="cso">
+      <Value>$(cso)</Value>
+    </BuildMacro>
+  </ItemGroup>
+</Project>

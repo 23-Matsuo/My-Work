@@ -1,0 +1,734 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>bbb24566-c220-458c-b23d-bf14a9b92580</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>39cfec82-6fb2-49b3-b779-4f98448e525a</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dds;dlg;fbx;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ImaseLib">
+      <UniqueIdentifier>{e5531120-2ae4-48a4-9773-4705908b3527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyLib">
+      <UniqueIdentifier>{995792ba-0542-4e5f-bf21-805c01571d31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBX">
+      <UniqueIdentifier>{4347844e-5801-4148-8422-4869babaa0a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TEX">
+      <UniqueIdentifier>{e6dbe0d2-f8a4-4b64-82b5-bbed90fdd750}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyLib\SoftBody">
+      <UniqueIdentifier>{da0fc7c5-d455-4026-a678-2066fa179ce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{977c7774-2208-4aba-8187-d5842ccf5447}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\GameMainObjects">
+      <UniqueIdentifier>{6399e9e9-3e2c-49a1-9a18-bc1d3ba4a22b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\TitleSceneObjdects">
+      <UniqueIdentifier>{57f8953e-d22e-4045-abce-f285999ed24b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{bf0650e8-fe65-4fa6-a86b-500ffcd77043}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\LoadSceneObjects">
+      <UniqueIdentifier>{d09a6635-24c4-4cdd-b264-77acf15f417f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Effects">
+      <UniqueIdentifier>{c4491744-e2da-4ea3-86f6-7158136a7b2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\GameMainObjects\UI">
+      <UniqueIdentifier>{8bc74a16-55a9-47d5-8c5e-902431d918f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\GameMainObjects\Objects">
+      <UniqueIdentifier>{a6163ae3-66b4-4a52-8bdf-264c4e73262d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\GameMainObjects\Objects\CatBall">
+      <UniqueIdentifier>{a1684d91-df7c-4455-b420-1fda9bd83fd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\GameMainObjects\Managers">
+      <UniqueIdentifier>{596a4cf7-2880-4ddb-baca-ae0af37fc6ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Datas">
+      <UniqueIdentifier>{b8f45fea-25ff-42be-a341-7fcd659891fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nlohmann">
+      <UniqueIdentifier>{c738f56b-c631-49f0-a666-4d0e52ba1a7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Datas\Animation">
+      <UniqueIdentifier>{14e2464c-8a18-4c1c-bfa2-d168165f1f10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Datas\ObjectParameter">
+      <UniqueIdentifier>{d91862a7-2e7c-4667-8038-f372b9ef14ca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="ImaseLib\DebugFont.h">
+      <Filter>ImaseLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\PlayScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ImaseLib\GridFloor.h">
+      <Filter>ImaseLib</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLib\UserInterface.h">
+      <Filter>MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLib\PhysicalObject.h">
+      <Filter>MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ImaseLib\ObjCollision.h">
+      <Filter>ImaseLib</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLib\Camera.h">
+      <Filter>MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ImaseLib\DisplayCollision.h">
+      <Filter>ImaseLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\TitleScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\LoadScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLib\Transition.h">
+      <Filter>MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLib\ParticleUtility.h">
+      <Filter>MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLib\DebugCamera.h">
+      <Filter>MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLib\Resources.h">
+      <Filter>MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLib\Collision.h">
+      <Filter>MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLib\SoftBody\RenderSoftBody.h">
+      <Filter>MyLib\SoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLib\SoftBody\PhysicalPoint.h">
+      <Filter>MyLib\SoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLib\SoftBody\SoftBodyBox.h">
+      <Filter>MyLib\SoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLib\SoftBody\Spring.h">
+      <Filter>MyLib\SoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLib\SoundUtility.h">
+      <Filter>MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLib\SceneManager.h">
+      <Filter>MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\TitleSceneObjects\StartMenu.h">
+      <Filter>Scene\TitleSceneObjdects</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\GameMainObjects\GameCamera.h">
+      <Filter>Scene\GameMainObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLib\BinaryFile.h">
+      <Filter>MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLib\SoftBody\ISoftBodyFactory.h">
+      <Filter>MyLib\SoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLib\SoftBody\SoftBodyFactory.h">
+      <Filter>MyLib\SoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLib\Graphics.h">
+      <Filter>MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLib\MenuManager.h">
+      <Filter>MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\LoadSceneObjects\Loading.h">
+      <Filter>Scene\LoadSceneObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Effects\HitParticle.h">
+      <Filter>Scene\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLib\DepthStencil.h">
+      <Filter>MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugDraw.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceResources.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadData.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTexture.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteSheet.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="StepTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLib\ObjectCollision.h">
+      <Filter>MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\TitleSceneObjects\TitleLogo.h">
+      <Filter>Scene\TitleSceneObjdects</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLib\SoftBody\SoftBodyCylinder.h">
+      <Filter>MyLib\SoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\GameMainObjects\UI\ClearMenu.h">
+      <Filter>Scene\GameMainObjects\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\GameMainObjects\UI\CountDown.h">
+      <Filter>Scene\GameMainObjects\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\GameMainObjects\UI\GameTimer.h">
+      <Filter>Scene\GameMainObjects\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\GameMainObjects\Objects\CatBall\CatSphere.h">
+      <Filter>Scene\GameMainObjects\Objects\CatBall</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\GameMainObjects\Objects\CenterSoftBody.h">
+      <Filter>Scene\GameMainObjects\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\GameMainObjects\Objects\Floor.h">
+      <Filter>Scene\GameMainObjects\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\GameMainObjects\Objects\SoftBodyBar.h">
+      <Filter>Scene\GameMainObjects\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\GameMainObjects\Managers\StageFloorManager.h">
+      <Filter>Scene\GameMainObjects\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\GameMainObjects\Managers\StageSoftBodyManager.h">
+      <Filter>Scene\GameMainObjects\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="nlohmann\json.hpp">
+      <Filter>nlohmann</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\GameMainObjects\Objects\SoftBodyCube.h">
+      <Filter>Scene\GameMainObjects\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Effects\JumpParticle.h">
+      <Filter>Scene\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Effects\LandParticle.h">
+      <Filter>Scene\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Effects\RunParticle.h">
+      <Filter>Scene\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Sounds\SoundIdx.h" />
+    <ClInclude Include="Scene\GameMainObjects\UI\Score.h">
+      <Filter>Scene\GameMainObjects\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\GameMainObjects\Objects\Stage.h">
+      <Filter>Scene\GameMainObjects\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\TitleSceneObjects\TitleBackGround.h">
+      <Filter>Scene\TitleSceneObjdects</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\TitleSceneObjects\PushSpace.h">
+      <Filter>Scene\TitleSceneObjdects</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\TitleSceneObjects\MainMenuText.h">
+      <Filter>Scene\TitleSceneObjdects</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\GameMainObjects\UI\DoWhat.h">
+      <Filter>Scene\GameMainObjects\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Effects\GetParticle.h">
+      <Filter>Scene\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\GameMainObjects\Objects\CatBall\Arm.h">
+      <Filter>Scene\GameMainObjects\Objects\CatBall</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\GameMainObjects\UI\Finish.h">
+      <Filter>Scene\GameMainObjects\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\GameMainObjects\UI\Result.h">
+      <Filter>Scene\GameMainObjects\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\GameManager.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLib\ShadowMap.h">
+      <Filter>MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\TitleSceneObjects\HowToPlay.h">
+      <Filter>Scene\TitleSceneObjdects</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\GameMainObjects\Light.h">
+      <Filter>Scene\GameMainObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\TitleSceneObjects\HighScore.h">
+      <Filter>Scene\TitleSceneObjdects</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Effects\ResultConfetti.h">
+      <Filter>Scene\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\GameMainObjects\UI\HighScoreText.h">
+      <Filter>Scene\GameMainObjects\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLib\ConfettiUtility.h">
+      <Filter>MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLib\IPlayerState.h">
+      <Filter>MyLib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="ImaseLib\DebugFont.cpp">
+      <Filter>ImaseLib</Filter>
+    </ClCompile>
+    <ClCompile Include="ImaseLib\GridFloor.cpp">
+      <Filter>ImaseLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\PlayScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLib\UserInterface.cpp">
+      <Filter>MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLib\BinaryFile.cpp">
+      <Filter>MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLib\Camera.cpp">
+      <Filter>MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="ImaseLib\ObjCollision.cpp">
+      <Filter>ImaseLib</Filter>
+    </ClCompile>
+    <ClCompile Include="ImaseLib\DisplayCollision.cpp">
+      <Filter>ImaseLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\TitleScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\LoadScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLib\Transition.cpp">
+      <Filter>MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLib\ParticleUtility.cpp">
+      <Filter>MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLib\DebugCamera.cpp">
+      <Filter>MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLib\Resources.cpp">
+      <Filter>MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLib\SoftBody\RenderSoftBody.cpp">
+      <Filter>MyLib\SoftBody</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLib\SoftBody\PhysicalPoint.cpp">
+      <Filter>MyLib\SoftBody</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLib\SoftBody\SoftBodyBox.cpp">
+      <Filter>MyLib\SoftBody</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLib\SoftBody\Spring.cpp">
+      <Filter>MyLib\SoftBody</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLib\SoundUtility.cpp">
+      <Filter>MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLib\SceneManager.cpp">
+      <Filter>MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\TitleSceneObjects\StartMenu.cpp">
+      <Filter>Scene\TitleSceneObjdects</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\GameMainObjects\GameCamera.cpp">
+      <Filter>Scene\GameMainObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLib\SoftBody\SoftBodyFactory.cpp">
+      <Filter>MyLib\SoftBody</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLib\Graphics.cpp">
+      <Filter>MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLib\MenuManager.cpp">
+      <Filter>MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\LoadSceneObjects\Loading.cpp">
+      <Filter>Scene\LoadSceneObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Effects\HitParticle.cpp">
+      <Filter>Scene\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLib\DepthStencil.cpp">
+      <Filter>MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugDraw.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceResources.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTexture.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLib\ObjectCollision.cpp">
+      <Filter>MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\TitleSceneObjects\TitleLogo.cpp">
+      <Filter>Scene\TitleSceneObjdects</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLib\SoftBody\SoftBodyCylinder.cpp">
+      <Filter>MyLib\SoftBody</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\GameMainObjects\UI\ClearMenu.cpp">
+      <Filter>Scene\GameMainObjects\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\GameMainObjects\UI\CountDown.cpp">
+      <Filter>Scene\GameMainObjects\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\GameMainObjects\UI\GameTimer.cpp">
+      <Filter>Scene\GameMainObjects\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\GameMainObjects\Objects\CatBall\CatSphere.cpp">
+      <Filter>Scene\GameMainObjects\Objects\CatBall</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\GameMainObjects\Objects\CenterSoftBody.cpp">
+      <Filter>Scene\GameMainObjects\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\GameMainObjects\Objects\Floor.cpp">
+      <Filter>Scene\GameMainObjects\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\GameMainObjects\Objects\SoftBodyBar.cpp">
+      <Filter>Scene\GameMainObjects\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\GameMainObjects\Managers\StageFloorManager.cpp">
+      <Filter>Scene\GameMainObjects\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\GameMainObjects\Managers\StageSoftBodyManager.cpp">
+      <Filter>Scene\GameMainObjects\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\GameMainObjects\Objects\CatBall\Arm.cpp">
+      <Filter>Scene\GameMainObjects\Objects\CatBall</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\GameMainObjects\Objects\SoftBodyCube.cpp">
+      <Filter>Scene\GameMainObjects\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Effects\JumpParticle.cpp">
+      <Filter>Scene\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Effects\LandParticle.cpp">
+      <Filter>Scene\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Effects\RunParticle.cpp">
+      <Filter>Scene\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\GameMainObjects\UI\Score.cpp">
+      <Filter>Scene\GameMainObjects\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\GameMainObjects\Objects\Stage.cpp">
+      <Filter>Scene\GameMainObjects\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\TitleSceneObjects\TitleBackGround.cpp">
+      <Filter>Scene\TitleSceneObjdects</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\TitleSceneObjects\PushSpace.cpp">
+      <Filter>Scene\TitleSceneObjdects</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\TitleSceneObjects\MainMenuText.cpp">
+      <Filter>Scene\TitleSceneObjdects</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\GameMainObjects\UI\DoWhat.cpp">
+      <Filter>Scene\GameMainObjects\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Effects\GetParticle.cpp">
+      <Filter>Scene\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\GameMainObjects\UI\Finish.cpp">
+      <Filter>Scene\GameMainObjects\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\GameMainObjects\UI\Result.cpp">
+      <Filter>Scene\GameMainObjects\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\GameManager.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLib\ShadowMap.cpp">
+      <Filter>MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\TitleSceneObjects\HowToPlay.cpp">
+      <Filter>Scene\TitleSceneObjdects</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\GameMainObjects\Light.cpp">
+      <Filter>Scene\GameMainObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\TitleSceneObjects\HighScore.cpp">
+      <Filter>Scene\TitleSceneObjdects</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Effects\ResultConfetti.cpp">
+      <Filter>Scene\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\GameMainObjects\UI\HighScoreText.cpp">
+      <Filter>Scene\GameMainObjects\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLib\ConfettiUtility.cpp">
+      <Filter>MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\GameMainObjects\Objects\CatBall\Running.cpp">
+      <Filter>Scene\GameMainObjects\Objects\CatBall</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\GameMainObjects\Objects\CatBall\Jumping.cpp">
+      <Filter>Scene\GameMainObjects\Objects\CatBall</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="directx.ico">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="settings.manifest">
+      <Filter>Assets</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Shaders\Jelly.hlsli">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Particle.hlsli">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\UI.hlsli">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Transition.hlsli">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\SM_Common.hlsli">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\Datas\TitleLogoAnimation.json">
+      <Filter>Datas\Animation</Filter>
+    </None>
+    <None Include="Resources\Datas\PushSpaceAnimation.json">
+      <Filter>Datas\Animation</Filter>
+    </None>
+    <None Include="Resources\Datas\JellyBarParameter.json">
+      <Filter>Datas\ObjectParameter</Filter>
+    </None>
+    <None Include="Resources\Datas\JellyCenterParameter.json">
+      <Filter>Datas\ObjectParameter</Filter>
+    </None>
+    <None Include="Resources\Datas\JellyCubeParameter.json">
+      <Filter>Datas\ObjectParameter</Filter>
+    </None>
+    <None Include="Resources\Datas\PlayerParameter.json">
+      <Filter>Datas\ObjectParameter</Filter>
+    </None>
+    <None Include="Resources\Datas\SoftBodyParameter.json">
+      <Filter>Datas\ObjectParameter</Filter>
+    </None>
+    <None Include="Resources\Datas\HowToPlayAnimation.json">
+      <Filter>Datas\Animation</Filter>
+    </None>
+    <None Include="Resources\Datas\StartMenuAnimation.json">
+      <Filter>Datas\Animation</Filter>
+    </None>
+    <None Include="Resources\Datas\ScoreData.json">
+      <Filter>Datas</Filter>
+    </None>
+    <None Include="Resources\Datas\ScoreCountAnimation.json">
+      <Filter>Datas\Animation</Filter>
+    </None>
+    <None Include="Shaders\Confetti.hlsli">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\JellySM.hlsli">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shaders\JellyPS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\JellyVS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\ParticleGS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\ParticlePS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\ParticleVS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\UIGS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\UIPS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\UIVS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\TransitionPS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\TransitionGS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\TransitionVS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\SM_PS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\SM_PS_Depth.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\SM_VS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\SM_VS_Depth.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\JellySM_PS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\JellySM_VS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\ConfettiGS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\ConfettiPS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\ConfettiVS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <MeshContentTask Include="FBX\DishStage.fbx">
+      <Filter>FBX</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="FBX\Kitchen.fbx">
+      <Filter>FBX</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="FBX\LowPolyKitchen.fbx">
+      <Filter>FBX</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="FBX\CatBall.fbx">
+      <Filter>FBX</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="FBX\Arm.fbx">
+      <Filter>FBX</Filter>
+    </MeshContentTask>
+  </ItemGroup>
+  <ItemGroup>
+    <ImageContentTask Include="TEX\LoadingSprite.png">
+      <Filter>TEX</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="TEX\Particle.png">
+      <Filter>TEX</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="TEX\Trans.png">
+      <Filter>TEX</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="TEX\Start.png">
+      <Filter>TEX</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="TEX\NumberSprite.png">
+      <Filter>TEX</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="TEX\E.png">
+      <Filter>TEX</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="TEX\Jelly.png">
+      <Filter>TEX</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="TEX\Title.png">
+      <Filter>TEX</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="TEX\Arrow.png">
+      <Filter>TEX</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="TEX\Smoke.png">
+      <Filter>TEX</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="TEX\OutlineJelly.png">
+      <Filter>TEX</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="TEX\Bait.png">
+      <Filter>TEX</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="TEX\BackGround.png">
+      <Filter>TEX</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="TEX\PressSpace.png">
+      <Filter>TEX</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="TEX\Button.png">
+      <Filter>TEX</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="TEX\Restart.png">
+      <Filter>TEX</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="TEX\ToMenu.png">
+      <Filter>TEX</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="TEX\ToTitle.png">
+      <Filter>TEX</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="TEX\CountDownSprite.png">
+      <Filter>TEX</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="TEX\MainMenu.png">
+      <Filter>TEX</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="TEX\DoWhat.png">
+      <Filter>TEX</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="TEX\Finished.png">
+      <Filter>TEX</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="TEX\Result.png">
+      <Filter>TEX</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="TEX\BaitNumBack.png">
+      <Filter>TEX</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="TEX\HowToPlay.png">
+      <Filter>TEX</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="TEX\Quit.png">
+      <Filter>TEX</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="TEX\HighScoreText.png">
+      <Filter>TEX</Filter>
+    </ImageContentTask>
+    <ImageContentTask Include="TEX\HighScore.png">
+      <Filter>TEX</Filter>
+    </ImageContentTask>
+  </ItemGroup>
+</Project>

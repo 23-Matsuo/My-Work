@@ -1,0 +1,31 @@
+{
+  "DEFAULT_SCALE": [ [ 0.5, 0.5 ] ],
+  "ANIMATION_SPEED": 0.016,
+  "DURATION": 0.3,
+  "POP_IN": 
+  {
+    "KEY1": 
+    {
+      "FRAME": 0.0,
+      "AMOUNT": 0.045
+    },
+    "KEY2": 
+    {
+      "FRAME": 0.2,
+      "AMOUNT": 0.005
+    }
+  },
+  "POP_OUT": 
+  {
+    "KEY1": 
+    {
+      "FRAME": 0.0,
+      "AMOUNT": 0.005
+    },
+    "KEY2": 
+    {
+      "FRAME": 0.1,
+      "AMOUNT": 0.045
+    }
+  }
+}

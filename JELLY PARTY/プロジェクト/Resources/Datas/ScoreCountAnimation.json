@@ -1,0 +1,44 @@
+{
+  "NUMBER_SPRITE_COLUMN":10, 
+  "NUMBER_SPRITE_ROW":2, 
+
+  "BACK_DEFAULT_SCALE": 0.23,
+  "ICON_DEFAULT_SCALE": 0.08,
+  "NUMBER_DEFAULT_SCALE": 0.8,
+
+  "BACK_RESULT_SCALE": 0.25,
+  "ICON_RESULT_SCALE": 0.1,
+  "NUMBER_RESULT_SCALE": 0.9,
+
+  "NUMBER_HIGHSCORE_SCALE": 0.9,
+
+
+  "DURATION": 0.3,
+  "COUNT_UP": 
+  {
+    "KEY1": 
+    {
+      "FRAME": 0.0,
+      "AMOUNT": 1.8
+    },
+    "KEY2": 
+    {
+      "FRAME": 0.1,
+      "AMOUNT": 0.9
+    }
+  },
+
+  "HIGH_SCORE": {
+    "KEY1": 
+    {
+      "FRAME": 0.0,
+      "AMOUNT": 0.1
+    },
+    "KEY2": 
+    {
+      "FRAME": 0.1,
+      "AMOUNT": 0.01
+    }
+
+  }
+}
